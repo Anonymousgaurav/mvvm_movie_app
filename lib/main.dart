@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => SessionViewModel())
       ],
       child: const MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Movie App',
         initialRoute: RouteName.splash,
         onGenerateRoute: AppNavigator.generatedRoute,
       ),
